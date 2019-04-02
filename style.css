@@ -77,7 +77,8 @@ margin-left: 12px;
 margin-right: 20px;
 height: 30px;
 outline: 1px solid #4285f4;
-background: -moz-linear-gradient(top,#4387fd,#4683ea);
+/* background: -moz-linear-gradient(top,#4387fd,#4683ea); */
+background-image: linear-gradient(#4387fd,#4683ea);
 color: #fff;
 }
 
