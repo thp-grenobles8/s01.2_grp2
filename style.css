@@ -1,4 +1,4 @@
-header {
+/* header {
   background-color: #f1f1f1;
   min-width: 980px;
   max-width: 100%;
@@ -7,7 +7,7 @@ header {
   text-align: center;
   line-height: 45px;
   font-size: 13px;
-}
+} */
 
 
 
@@ -24,6 +24,7 @@ body{
 }
 
 .header {
+  min-width: 980px;
   padding-top: 15px;
   font-size: 13px;
  display : flex;
@@ -36,9 +37,9 @@ body{
 .menu {
   align-items: center;
  display : flex;
- 
+
  align-items: center;
- 
+
 }
 
 #images {
@@ -93,12 +94,12 @@ font-weight: bold;
 
 .research_bar
 {
-
+    z-index: 1;
     border: 1px solid #dfe1e5;
     border-radius:24px;
     margin-top: 35px;
     height: 46px;
-    width: 584px;
+    width: 482px;
 }
 
 .research_bar:hover{
@@ -106,7 +107,12 @@ font-weight: bold;
 
 }
 
+.research_bar:focus-within{
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
 .research{
+ min-width: 933px;
  display: flex;
  justify-content: center;
 }
@@ -115,14 +121,28 @@ font-weight: bold;
 
 
 .under_research,.image {
+  min-width: 980px;
   font-size: 14px;
   display : flex;
   flex-direction : row;
   justify-content : center;
+}
 
+.under_research a {
+  text-decoration: none;
+}
+
+#search_bar{
+border:none;
+/* border: 1px solid #000; */
+margin: 4px 14px;
+height: 34px;
+font-size: 16px;
+width: 454px;
 }
 
 .button{
+  z-index: 1;
   background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
   -moz-user-select: none;
   background-color: #f2f2f2;
@@ -145,7 +165,7 @@ font-weight: bold;
   background-color: #f8f8f8;
   border: 1px solid #c6c6c6;
   box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-  color: #222;  
+  color: #222;
 }
 
 
@@ -192,7 +212,7 @@ right: 0;
 }
 
 #footerhigh {
-
+border-bottom: 1px solid #e4e4e4;
 font-family: arial,sans-serif;
 line-height: 40px;
 font-size: 15px;
@@ -236,4 +256,3 @@ color: rgba(0,0,0,.54);
 .footer a:hover{
   text-decoration: underline;
 }
-
