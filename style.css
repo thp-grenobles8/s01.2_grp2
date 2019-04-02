@@ -12,14 +12,19 @@ body{
 
 .header {
  display : flex;
- flex-direction : row;
  justify-content : flex-end;
+
+
 }
+
+
 
 
 .menu {
  display : flex;
- justify-content : space-around;
+ 
+ align-items: center;
+ 
 }
 
 #image {
@@ -63,7 +68,7 @@ text-decoration: none;
 .research_bar
 {
     border: 1px solid black;
-    border-radius:2px;
+    border-radius:20px;
     height: 46px;
     width: 584px;
 }
